@@ -33,8 +33,8 @@ function Login(){
 
     return (
         <section className="flex w-sreen justify bg-gradient-to-tr from-custumBlue">
-            <div className="flex w-[50%]">
-                <img className=" h-screen" src={alilcacl} alt="" />
+            <div className="flex h-sreen w-full bg-customLoginImg bg-no-repeat bg-center bg-auto">
+                
             </div>
             <div className="flex flex-col items-center justify-center h-screen w-full">
                 <h1 className="text-2xl font-bold">
@@ -49,7 +49,7 @@ function Login(){
                             </label>
 
                             {errorEmail.length > 0 ? 
-                                <label className="text-red-500 text-xs">
+                                <label className="text-red-600 text-xs">
                                     {errorEmail}
                                 </label> : "" 
                             }

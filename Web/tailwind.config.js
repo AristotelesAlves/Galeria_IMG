@@ -14,7 +14,7 @@ export default {
       },
       backgroundImage:{
         customCadastroImg: "url(./src/assets/cadastro.png)",
-        customLoginImg: "url(./src/assets/alilcacl.png)"
+        customLoginImg: "url(./src/assets/alilcacl.jpg)"
       }
     }
   },
