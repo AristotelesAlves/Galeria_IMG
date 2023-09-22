@@ -7,7 +7,11 @@ export default {
   theme: {
     extend: {
       colors:{
-        custumBlue: "#282F39",
+        black_custom1: "#1D1D1B",
+        black_custom2: "#242526",
+        black_custom3: "#3A3B3C",
+        whit_custom1: "#EDEDED",
+        whit_custom2: "#B0B3B8",
       },
       gradientColorStops:{
         gradientCustum: "linear-gradient(58deg, #FFF 31%, rgba(255, 255, 255, 0.29) 118.91%)"
