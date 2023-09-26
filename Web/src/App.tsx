@@ -1,5 +1,4 @@
-import {BrowserRouter, Switch, Route, Redirect} from 'react-router-dom'
-import {useState} from 'react'
+import {BrowserRouter, Switch, Route} from 'react-router-dom'
 import { Home } from './pages/Home'
 import { Profile } from './pages/Profile'
 
